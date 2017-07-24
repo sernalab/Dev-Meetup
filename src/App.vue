@@ -1,6 +1,10 @@
 <template>
   <v-app>
+    <v-navigation-drawer v-model="sideNav">
+      
+    </v-navigation-drawer>
     <v-toolbar>
+      <v-toolbar-side-icon @click.native.stop="sideNav = !sideNav"></v-toolbar-side-icon><!-- burguer -->
       <v-toolbar-title>DevMeetup</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
@@ -20,6 +24,7 @@
   export default {
     data () {
       return {
+        sideNav: false
       }
     }
   }
