@@ -1,5 +1,5 @@
 <template>
-	<div>
-		<p>The home page</p>
-	</div>
+	<v-container>
+		<v-layout row wrap></v-layout>
+	</v-container>
 </template>
