@@ -14,7 +14,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar class="primary">
+    <v-toolbar class="secondary">
       <v-toolbar-side-icon 
         @click.native.stop="sideNav = !sideNav"
         class="hidden-sm-and-up">
