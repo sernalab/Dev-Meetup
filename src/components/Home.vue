@@ -8,7 +8,7 @@
 		<v-btn large router to="/meetup/new" class="info">Organize Meetup</v-btn>
 	  </v-flex>
 	</v-layout>
-	<v-layout>
+	<v-layout class="mt-2">
 	  <v-flex xs12>
 		<v-carousel>
 		  <v-carousel-item 
@@ -20,6 +20,11 @@
 		  </div>
 		  </v-carousel-item>
 		</v-carousel>
+	  </v-flex>
+	</v-layout>
+	<v-layout row wrap class="mt-2">
+	  <v-flex xs12 class="text-xs-center">
+		<p>Join our awesome Meetups</p>
 	  </v-flex>
 	</v-layout>
   </v-container>
